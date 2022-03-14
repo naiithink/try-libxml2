@@ -9,7 +9,7 @@ namespace Tree
 {
     typedef struct __Node
     {
-        unsigned long childCound;
+        unsigned long childCount;
         char *elem;
         char *attr;
         struct __Node *parent;
